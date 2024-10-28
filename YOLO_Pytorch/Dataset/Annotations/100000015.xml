@@ -1,0 +1,62 @@
+<annotation>
+	<folder>AllImages</folder>
+	<filename>100000015.bmp</filename>
+	<path>F:\硕士课题\数据集\HRSC2016_dataset\HRSC2016\FullDataSet\AllImages\100000015.bmp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1153</width>
+		<height>805</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>submarine</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>896</xmin>
+			<ymin>328</ymin>
+			<xmax>1012</xmax>
+			<ymax>537</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>merchant ship</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>609</xmin>
+			<ymin>334</ymin>
+			<xmax>779</xmax>
+			<ymax>564</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>merchant ship</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>565</xmin>
+			<ymin>295</ymin>
+			<xmax>733</xmax>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>merchant ship</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>536</xmin>
+			<ymin>271</ymin>
+			<xmax>704</xmax>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

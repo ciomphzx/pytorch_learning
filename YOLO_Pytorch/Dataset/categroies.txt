@@ -1,0 +1,4 @@
+0 aircraft carrier
+1 submarine
+2 merchant ship
+3 warcraft

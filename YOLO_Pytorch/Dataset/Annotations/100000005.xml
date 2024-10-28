@@ -1,0 +1,26 @@
+<annotation>
+	<folder>AllImages</folder>
+	<filename>100000005.bmp</filename>
+	<path>F:\硕士课题\数据集\HRSC2016_dataset\HRSC2016\FullDataSet\AllImages\100000005.bmp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1189</width>
+		<height>787</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aircraft carrier</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>439</ymin>
+			<xmax>1165</xmax>
+			<ymax>657</ymax>
+		</bndbox>
+	</object>
+</annotation>
