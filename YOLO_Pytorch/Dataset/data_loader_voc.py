@@ -133,8 +133,9 @@ def data_loader_voc(dataset_dir, batch_size, resize=0, image_set='train'):
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, collate_fn=custom_collate_fn)
     return dataloader
 
-# 测试VOC格式数据集数据加载
-train_dataloader = data_loader_voc(dataset_dir='./', batch_size=2, resize=256, image_set='train')
-for batch_idx, (imgs, labels) in enumerate(train_dataloader):
-    print(f"batch: {batch_idx + 1}, image shape: {imgs.shape}, labels: {labels[0], labels[1]}")
-    break
+if __name__ == '__main__':
+    # 测试VOC格式数据集数据加载
+    train_dataloader = data_loader_voc(dataset_dir='./', batch_size=2, resize=256, image_set='train')
+    for batch_idx, (imgs, labels) in enumerate(train_dataloader):
+        print(f"batch: {batch_idx + 1}, image shape: {imgs.shape}, labels: {labels[0], labels[1]}")
+        break
